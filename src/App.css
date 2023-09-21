@@ -1,0 +1,22 @@
+#root {width: 100%;  position: relative;}
+.top {width: 100%; text-align: center; position: relative;}
+.top .logo { padding: 20px 0; }
+.left {
+  position: absolute;
+  top: 50%; right: 200px;
+  transform: translateY(-50%);
+}
+.logo {cursor: pointer;}
+.logo2 {margin-right: 10px;}
+.logo3 { margin-left: 70px;}
+
+.container { 
+
+}
+.navbar 
+.me-auto {text-align: center;}
+.nav-link{ 
+  color: #fff;
+  margin-left: 160px;
+  color: #f7d82d;
+}
