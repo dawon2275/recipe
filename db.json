@@ -5,7 +5,10 @@
           "img":"img/food1.jpg",
           "title":"소갈비찜 만드는 법 - 생일상차림 메뉴",
           "content" : "소갈비찜 만드는 방법을 공유합니다",
-          "rangking" :"★★★★★"
+          "person": "img/person.jpg",
+          "name" : "날개달고",
+          "rangking" :"★★★★★",
+          "good" : "img/good.png"
 
       },
       {
@@ -13,7 +16,10 @@
           "img":"img/food2.jpg",
           "title":"오징어볶음",
           "content" : "향과 맛이 일품! 백종원의 오징어볶음 ",
-          "rangking" :"★★★★★"
+          "person": "img/person.jpg",
+          "name" : "아랄랄라",
+          "rangking" :"★★★★★",
+          "good" : "img/good.png"
 
       },
       {
@@ -21,6 +27,8 @@
           "img":"img/food3.jpg",
           "title":"김치찌개",
           "content" :"돼지고기 김치찌개 맛내는 비법",
+          "person": "img/person.jpg",
+          "name" : "돌하우스",
           "rangking" :"★★★★★"
       },
       {
@@ -28,7 +36,10 @@
           "img":"img/food4.jpg",
           "title":"오이무침",
           "content" : "백종원 오이무침.​",
-          "rangking" :"★★★★★"
+          "person": "img/person.jpg",
+          "name" : "마이쏭",
+          "rangking" :"★★★★★",
+          "good" : "img/good.png"
 
       },
       {
@@ -36,6 +47,8 @@
           "img":"img.food5.jpg",
           "title":"소불고기",
           "content" : "소불고기 황금레시피",
+          "person": "img/person.jpg",
+          "name" : "비바스밥",
           "rangking" :"★★★★★"
       },
       {
@@ -43,7 +56,10 @@
           "img":"img/food6.jpg",
           "title":"콩나물무침",
           "content" : "백종원 레시피로 만든 콩나물 무침으로 밥 한끼 뚝딱",
-          "rangking" :"★★★★★"
+          "person": "img/person.jpg",
+          "name" : "뽀새댁",
+          "rangking" :"★★★★★",
+          "good" : "img/good.png"
 
       },
       {
@@ -51,6 +67,8 @@
           "img":"img/food7.jpg",
           "title":"소소기무국",
           "content" : "황금레시피, 재로는 간단! 맛은 최고!",
+          "person": "img/person.jpg",
+          "name" : "뽀유TV",
           "rangking" :"★★★★★"
 
       },
@@ -59,6 +77,8 @@
           "img":"img/food8.jpg",
           "title":"두부조림",
           "content" : "양념장이 참 맛있는 두부조림의 비법을 공유합니다!.​",
+          "person": "img/person.jpg",
+          "name" : "주부9단요리톡톡",
           "rangking" :"★★★★★"
 
       },
@@ -67,7 +87,42 @@
           "img":"img/food9.jpg",
           "title":"콩나물국",
           "content" : "국물이 시원한 맑은 콩나물국 맛있게 끓이는법.",
+          "person": "img/person.jpg",
+          "name" : "요리하는최여사",
           "rangking" :"★★★★★"
+
+      },
+      {
+          "id":9,
+          "img":"img/food10.jpg",
+          "title":"콩나물국",
+          "content" : "국물이 시원한 맑은 콩나물국 맛있게 끓이는법.",
+          "person": "img/person.jpg",
+          "name" : "먹순",
+          "rangking" :"★★★★★",
+          "good" : "img/good.png"
+
+      },
+      {
+          "id":10,
+          "img":"img/food11.jpg",
+          "title":"콩나물국",
+          "content" : "국물이 시원한 맑은 콩나물국 맛있게 끓이는법.",
+          "person": "img/person.jpg",
+          "name" : "앨린84",
+          "rangking" :"★★★★★",
+          "good" : "img/good.png"
+
+      },
+      {
+          "id":11,
+          "img":"img/food12.jpg",
+          "title":"콩나물국",
+          "content" : "국물이 시원한 맑은 콩나물국 맛있게 끓이는법.",
+          "person": "img/person.jpg",
+          "name" : "마이쏭",
+          "rangking" :"★★★★★"
+          ,"good" : "img/good.png"
 
       }
       

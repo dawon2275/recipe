@@ -1,22 +1,64 @@
-#root {width: 100%;  position: relative;}
-.top {width: 100%; text-align: center; position: relative;}
+#root {width: 1900px;  position: relative;}
+.top {
+
+}
 .top .logo { padding: 20px 0; }
+.search-area { 
+  width: 450px;
+  position: absolute;
+  top: 35px; left: 33%;
+}
+.search {height: 45px;}
+Button {
+  position: absolute;
+  height: 45px;
+  top: 0; right: -80px;
+}
 .left {
   position: absolute;
-  top: 50%; right: 200px;
+  top: 55px; right: 350px;
   transform: translateY(-50%);
 }
 .logo {cursor: pointer;}
 .logo2 {margin-right: 10px;}
 .logo3 { margin-left: 70px;}
 
-.container { 
-
-}
-.navbar 
 .me-auto {text-align: center;}
+
+
+.navbar[data-bs-theme=dark] {
+  width: 100%;
+}
 .nav-link{ 
   color: #fff;
   margin-left: 160px;
   color: #f7d82d;
+}
+.content {
+  margin-top: 80px;
+}
+.foodList {margin-bottom: 45px;}
+.product-list {position: relative;}
+
+.name {
+  position: absolute;
+  bottom: 2px; left: 35px;
+  display: inline;
+  font-size: 14px;
+}
+.best {position: relative;}
+.good {
+  position: absolute;
+  bottom: 0; right: 4px;
+}
+.person img{border-radius: 12px;}
+.product-img {
+  margin-bottom: 20px;
+}
+.title {margin-bottom: 10px;}
+
+
+.detail-img { 
+  width: 500px;
+  height: 500px;
 }
