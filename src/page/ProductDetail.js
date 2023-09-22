@@ -7,15 +7,15 @@ import Form from 'react-bootstrap/Form';
 const ProductDetail = () => { 
 
   const { id } = useParams();
-  const [product, setProduct] = useState(null);
+  const [products, setProducts] = useState(null);
     const getProductsDetail = async() => {
         let url = `http://localhost:5000/products/${id}`
         //let url = `https://my-json-server.typicode.com/dawon2275/recipe/products/${id}`
         
         let response = await fetch(url);
         let data = await response.json();
-        //console.log(data)
-        setProduct(data)
+        console.log(data)
+        setProducts(data)
     }
 
     useEffect(() => {
@@ -27,24 +27,17 @@ const ProductDetail = () => {
     <>
       <Row className='product-detail'>
         <Col className='productDetail-img'>
-          <img src={product?.img} alt="" />
+          <img className='Food-img' src={products?.img} alt='' />
         </Col>
         <Col className="detail-info">
-          <div className="new">
-          {product?.new===true?'[신상품]':''}
-          </div>
-          <div className="title">{product?.title}</div>
-          <div className="content">{product?.content}</div>
-          <div className="price">{product?.price}</div>
-          <div className="choice">
-            {product?.choice===true?'Conscious Choioce':''}
-          </div>
+          <div className="title">{products?.title}</div>
+          <div className="info">{products?.content}</div>
+ 
 
           <Form.Select>
-            <option>Size</option>
-            <option value="1">S</option>
-            <option value="2">M</option>
-            <option value="3">L</option>
+            <option>용량</option>
+            <option value="1">200g</option>
+            <option value="2">400g</option>
           </Form.Select>
 
           <Button variant="dark">Dark</Button>

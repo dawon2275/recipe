@@ -1,22 +1,24 @@
 import React from 'react'
-import {Container, Navbar, Nav} from 'react-bootstrap';
+import {Container, Navbar, Nav, FormLabel} from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 
 const TopMenu = () => {
+ 
+
   return (
     <>
     <div className='top'>
       
       <Container fluid>
         <img className='logo' src='img/logo4.png'/>
-        <Form className="search-area">
-              <Form.Control 
-                type="search"
-                placeholder="Search"
+        <Form  className="search-area" >
+              <Form.Control
+                type="text"
+                placeholder='원하는 단어를 검색해주세요.'
                 className="search"
-                aria-label="Search"
+                
               />
               <Button variant="outline-success">Search</Button>
           </Form>

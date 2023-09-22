@@ -32,7 +32,7 @@ function App() {
       <TopMenu/>
       <Routes>
         <Route path="/" element={<ProductAll />} />
-        <Route path="/Product/:id" element={<ProductDetail />}/>
+        <Route path="/products/:id" element={<ProductDetail/>}/>
 
 
         {/* privateRoute 설정 */}

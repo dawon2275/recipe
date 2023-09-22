@@ -4,13 +4,10 @@ import { useNavigate } from 'react-router-dom'
 
 
 const ProductCard = ({item}) => {
-    /* const dataPrice = (item.price)
-    const dataPrice2= dataPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") */
-    //console.log(dataPrice2)
-
+  
     const navigate = useNavigate();
     const showDetail =() => {
-      navigate(`/product/${item.id}`)
+      navigate(`/products/${item.id}`)
     }
   return (
     

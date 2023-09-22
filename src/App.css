@@ -62,3 +62,13 @@ Button {
   width: 500px;
   height: 500px;
 }
+
+.product-detail {margin-top: 70px;}
+.Food-img {width: 500px;}
+.detail-info .title { 
+  font-size: 25px;
+  font-weight: 600;
+}
+.form-select {
+  margin-top: 70px;
+}
